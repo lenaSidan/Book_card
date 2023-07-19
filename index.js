@@ -6,9 +6,7 @@ async function loadBook() {
     console.log(obj);
     const { title, author, genre, publicationYear, rating, synopsis, mainCharacters, language } = obj;
     console.log(title, author, genre, publicationYear, rating, synopsis, mainCharacters, language);
-    console.log(title, author, genre, publicationYear, rating, synopsis, mainCharacters, language);
-    console.log(title, author, genre, publicationYear, rating, synopsis, mainCharacters, language);
-    console.log(title, author, genre, publicationYear, rating, synopsis, mainCharacters, language);
+    
     cardElement.innerHTML = `Название: ${title}<br>Автор: ${author}<br>Жанр: ${genre}<br>Год издания: ${publicationYear}<br>Рейтинг: ${rating}<br>Описание: ${synopsis}<br>Основные персонажи: ${mainCharacters}<br>Язык: ${language}`;
 
 }
